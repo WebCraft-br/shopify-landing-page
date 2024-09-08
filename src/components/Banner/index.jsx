@@ -9,7 +9,7 @@ export default function Banner() {
   };
 
   const bannerImage = {
-    visible: { y:  0, opacity: 1, transition: { duration: .5 } },
+    visible: { y: 0, opacity: 1, transition: { duration: .5 } },
     hidden: { y: 200, opacity: 1 },
   };
 
@@ -25,15 +25,15 @@ export default function Banner() {
             className="text-center space-y-[18px] flex flex-col items-center"
           >
             <SubHead color="text-white" style="sm:w-4/5 md:w-9/12 lg:w-9/12">
-              Managing your ecommerce business on the go is easy.
+              Gerenciar seu negócio de ecommerce em qualquer lugar é fácil.
             </SubHead>
             <Paragraph
               color="text-white/70"
               style="sm:w-11/12 md:w-9/12 lg:w-1/2"
             >
-              Our customers enjoy complete freedom of doing business online by
-              managing every aspect of their online store from their mobile and
-              web devices.
+              Nossos clientes aproveitam total liberdade de fazer negócios online
+              gerenciando todos os aspectos de sua loja virtual a partir de seus
+              dispositivos móveis e web.
             </Paragraph>
           </motion.section>
           <div className="w-full flex justify-center">

@@ -13,7 +13,7 @@ export function PrimaryCard({ primaryContainer, miniModal, fakeProfiles }) {
       >
         <div className="flex items-center justify-between pb-4 md:pb-8 border-b-[0.5px] md:border-b border-[#9C9C9C]">
           <h4 className="text-xs text-primary-100 font-medium sm:text-base lg:text-2xl">
-            Shopify Bill Payment
+            Pagamento de Fatura Shopify
           </h4>
           <span className="text-primary-100 text-[7px] font-medium bg-[#EBF7F7] w-4 h-4 flex items-center justify-center block rounded-full sm:w-5 sm:h-5 sm:text-[10px] lg:w-8 lg:h-8 lg:text-base">
             3
@@ -25,7 +25,7 @@ export function PrimaryCard({ primaryContainer, miniModal, fakeProfiles }) {
           ))}
         </div>
         <button className="py-2.5 bg-primary-100/10 w-full text-primary-100 font-body font-medium text-[8px] sm:py-4 sm:text-xs lg:py-[22px] lg:text-base">
-          Add Manual
+          Adicionar Manualmente
         </button>
       </motion.div>
 
@@ -39,17 +39,17 @@ export function PrimaryCard({ primaryContainer, miniModal, fakeProfiles }) {
       >
         <div>
           <h5 className="text-[10px] font-medium text-primary-100 mb-1.5 sm:text-base lg:text-lg lg:mb-2">
-            Bill Amount
+            Valor da Fatura
           </h5>
           <p className="text-black-300 text-[8px] sm:text-xs lg:text-base">
-            A fair way to divide bills
+            Uma maneira justa de dividir contas
           </p>
         </div>
         <h4 className="font-medium text-[18px] text-primary-100 sm:text-2xl lg:text-4xl">
-          $739.65
+          R$739,65
         </h4>
         <button className="bg-[#FFBC9F] text-[8px] text-primary-100 py-2 w-full sm:text-xs sm:py-2.5 lg:text-base lg:py-4">
-          Quick Pay
+          Pagamento Rápido
         </button>
       </motion.div>
     </div>
@@ -65,16 +65,16 @@ export function SecondaryCard() {
     const incomeControls = animate(0, 2174602, {
       duration: 1,
       onUpdate(value) {
-        const num = value.toFixed().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        incomeRef.current.textContent = `$${num}`;
+        const num = value.toFixed().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        incomeRef.current.textContent = `R$${num}`;
       },
     });
 
     const worstControls = animate(0, 5369, {
       duration: 0.8,
       onUpdate(value) {
-        const num = value.toFixed().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        worstRef.current.textContent = `$${num}`;
+        const num = value.toFixed().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        worstRef.current.textContent = `R$${num}`;
       },
     });
 
@@ -109,18 +109,18 @@ export function SecondaryCard() {
           <img
             className="w-3.5 h-auto object-cover sm:w-5 lg:w-6"
             src="/earn-1.svg"
-            alt="earn"
+            alt="ganhos"
           />
-          <p className="text-[9px] sm:text-sm lg:text-base">Total Income</p>
+          <p className="text-[9px] sm:text-sm lg:text-base">Rendimento Total</p>
         </div>
         <div className="flex items-center gap-2 lg:gap-3.5">
           <p ref={incomeRef} className="text-[9px] sm:text-sm lg:text-base">
-            $ 21,746,02
+            R$ 21.746,02
           </p>
           <img
             className="w-7 h-auto object-cover sm:w-11 lg:w-[50px]"
             src="/earn-3.svg"
-            alt="earn"
+            alt="ganhos"
           />
         </div>
       </motion.div>
@@ -132,18 +132,18 @@ export function SecondaryCard() {
           <img
             className="w-3.5 h-auto object-cover sm:w-5 lg:w-6"
             src="/earn-2.svg"
-            alt="earn"
+            alt="pior venda"
           />
-          <p className="text-[9px] sm:text-sm lg:text-base">Worst Selling</p>
+          <p className="text-[9px] sm:text-sm lg:text-base">Pior Venda</p>
         </div>
         <div className="flex items-center gap-2 lg:gap-3.5">
           <p ref={worstRef} className="text-[9px] sm:text-sm lg:text-base">
-            $ 5,369
+            R$ 5.369
           </p>
           <img
             className="w-7 h-auto object-cover sm:w-11 lg:w-[50px]"
             src="/earn-4.svg"
-            alt="earn"
+            alt="pior venda"
           />
         </div>
       </motion.div>
@@ -152,11 +152,11 @@ export function SecondaryCard() {
         className="bg-white p-4 pb-5 flex flex-col gap-7 rounded-md shadow sm:p-6 sm:pb-7 md:shadow-md lg:p-7 lg:pb-9 lg:rounded-xl"
       >
         <div className="flex gap-6 items-center">
-          <p className="text-[9px] sm:text-sm lg:text-base">Total Growth</p>
+          <p className="text-[9px] sm:text-sm lg:text-base">Crescimento Total</p>
           <img
             className="w-2.5 h-auto object-cover sm:w-4 lg:w-5"
             src="/dot.svg"
-            alt="dot"
+            alt="ponto"
           />
         </div>
         <div className="flex gap-6 items-center">
@@ -164,7 +164,7 @@ export function SecondaryCard() {
             <img
               className="w-full h-auto object-cover"
               src="/chart.png"
-              alt="chart"
+              alt="gráfico"
             />
           </div>
           <div className="w-fit flex flex-col gap-2.5">

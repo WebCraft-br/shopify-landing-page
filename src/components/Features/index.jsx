@@ -8,45 +8,45 @@ export default function Features() {
   const dataFeatures = [
     {
       id: 1,
-      title: "One time payment",
+      title: "Pagamento único",
       logo: "/feature-1.svg",
       content:
-        "Check out our best practices and support to quickly make text messaging one of your top 3 revenue channels.",
+        "Confira nossas melhores práticas e suporte para fazer com que as mensagens de texto se tornem um dos seus três principais canais de receita.",
     },
     {
       id: 2,
-      title: "Self-reported data",
+      title: "Dados auto-relatados",
       logo: "/feature-2.svg",
       content:
-        "You own your data, store design and business plan, but you are free to use the software platform and resources provided by Shopify.",
+        "Você é dono dos seus dados, do design da loja e do plano de negócios, mas é livre para usar a plataforma de software e os recursos fornecidos pela Shopify.",
     },
     {
       id: 3,
-      title: "Updates are always free",
+      title: "Atualizações sempre gratuitas",
       logo: "/feature-3.svg",
       content:
-        "Shopify is so dedicated to keeping its software current that it sends you free updates for a lifetime without charging you anything.",
+        "A Shopify se dedica tanto a manter seu software atualizado que envia atualizações gratuitas por toda a vida, sem cobrar nada.",
     },
     {
       id: 4,
-      title: "Mobile first design",
+      title: "Design mobile-first",
       logo: "/feature-4.svg",
       content:
-        "With our mobile app, you can allow your customers to check their order status, browse your store and create an account on the spot.",
+        "Com nosso aplicativo móvel, você permite que seus clientes verifiquem o status do pedido, naveguem pela sua loja e criem uma conta na hora.",
     },
     {
       id: 5,
-      title: "100% Customizable",
+      title: "100% personalizável",
       logo: "/feature-5.svg",
       content:
-        "You can customize your storefront and everything else in the way you want as the owner of your source code.",
+        "Você pode personalizar sua vitrine e todo o resto da maneira que quiser, sendo o proprietário do código-fonte.",
     },
     {
       id: 6,
-      title: "Easy task management",
+      title: "Gerenciamento de tarefas fácil",
       logo: "/feature-6.svg",
       content:
-        "You can have peace of mind knowing that your system is running smoothly thanks to our techs' expertise and precision.",
+        "Você pode ficar tranquilo sabendo que seu sistema está funcionando sem problemas graças à experiência e precisão de nossos técnicos.",
     },
   ];
 
@@ -58,7 +58,7 @@ export default function Features() {
   return (
     <div className="container mx-auto max-w-[1344px]">
       <div className="px-5 py-16 flex flex-col gap-10 sm:pb-28 sm:px-10 md:pb-36">
-        {/* Head Content */}
+        {/* Conteúdo Principal */}
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -66,21 +66,21 @@ export default function Features() {
           variants={content}
           className="text-center flex flex-col items-center"
         >
-          <Subtitle style="mb-2">360° CUSTOMIZABLE</Subtitle>
+          <Subtitle style="mb-2">360° PERSONALIZÁVEL</Subtitle>
           <SubHead style="mb-[18px] sm:w-8/12 md:w-9/12 lg:w-7/12">
-            Have full control over your online store
+            Tenha controle total sobre sua loja online
           </SubHead>
           <Paragraph
             fontSize="text-sm"
             color="text-black-400"
             style="sm:w-3/5 md:w-7/12 lg:w-1/3"
           >
-            Take total control of your eCommerce business by owning the source
-            code and data that drive it.
+            Tome controle total do seu negócio de eCommerce sendo proprietário
+            do código-fonte e dos dados que o impulsionam.
           </Paragraph>
         </motion.div>
 
-        {/* Feature Items */}
+        {/* Itens de Funcionalidades */}
         <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3 overflow-hidden">
           {dataFeatures?.map((feature, index) => (
             <FeatureItem key={feature.id} feature={feature} i={index} />

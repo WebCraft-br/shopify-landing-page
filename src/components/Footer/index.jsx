@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <div className="bg-primary-300">
-      {/* Contact */}
+      {/* Contato */}
       <div className="border-b border-white/15 relative overflow-hidden">
         <div className="container mx-auto max-w-[1344px]">
           <motion.section
@@ -29,18 +29,18 @@ export default function Footer() {
               color="text-white"
               style="mb-[18px] sm:w-9/12 md:w-9/12 lg:w-6/12"
             >
-              We can take care of the installation
+              Nós cuidamos da instalação para você
             </SubHead>
             <Paragraph
               color="text-white/70"
               fontSize="text-sm"
               style="mb-[30px] sm:w-7/12 lg:w-5/12"
             >
-              Don’t want to deal with technical stuff? Let us fire up Uvodo for
-              you, so you can spend your time selling right away.
+              Não quer lidar com questões técnicas? Deixe-nos configurar o Uvodo
+              para você, assim você pode começar a vender imediatamente.
             </Paragraph>
             <MainButton style="w-full sm:w-9/12 sm:w-fit lg:w-fit hover:bg-primary-300 hover:border-white hover:text-white transition-all duration-200 ease-in">
-              CONTACT US
+              FALE CONOSCO
             </MainButton>
           </motion.section>
         </div>
@@ -71,7 +71,7 @@ export default function Footer() {
           alt="eclipse"
         />
       </div>
-      {/* Footer */}
+      {/* Rodapé */}
       <footer className="container mx-auto max-w-[1344px]">
         <div className="px-5 py-10 flex flex-col sm:px-10 lg:grid grid-cols-3 lg:gap-y-32">
           <div className="lg:col-span-1">
@@ -83,82 +83,82 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-9 font-body mb-[52px] md:grid-cols-4 lg:col-span-2 lg:mb-0">
             <div>
-              <h6 className="mb-5 font-medium text-lg text-white">Features</h6>
+              <h6 className="mb-5 font-medium text-lg text-white">Recursos</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
                 <a className="footer-link" href="#">
-                  Find a Patner
+                  Encontrar um Parceiro
                 </a>
                 <a className="footer-link" href="#">
-                  Become a Patner
+                  Torne-se um Parceiro
                 </a>
                 <a className="footer-link" href="#">
-                  Affiliates
+                  Afiliados
                 </a>
                 <a className="footer-link" href="#">
-                  Patner Offers
+                  Ofertas de Parceiros
                 </a>
                 <a className="footer-link" href="#">
-                  Store Examples
+                  Exemplos de Lojas
                 </a>
               </div>
             </div>
             <div>
-              <h6 className="mb-5 font-medium text-lg text-white">Company</h6>
+              <h6 className="mb-5 font-medium text-lg text-white">Empresa</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
                 <a className="footer-link" href="#">
-                  Leaders
+                  Líderes
                 </a>
                 <a className="footer-link" href="#">
-                  About Us
+                  Sobre Nós
                 </a>
                 <a className="footer-link" href="#">
-                  Careers
+                  Carreiras
                 </a>
                 <a className="footer-link" href="#">
-                  Press
+                  Imprensa
                 </a>
                 <a className="footer-link" href="#">
-                  Awards
+                  Premiações
                 </a>
               </div>
             </div>
             <div>
-              <h6 className="mb-5 font-medium text-lg text-white">Resources</h6>
+              <h6 className="mb-5 font-medium text-lg text-white">Recursos</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
                 <a className="footer-link" href="#">
-                  Overview
+                  Visão Geral
                 </a>
                 <a className="footer-link" href="#">
-                  Articles
+                  Artigos
                 </a>
                 <a className="footer-link" href="#">
                   Webinars
                 </a>
                 <a className="footer-link" href="#">
-                  Events
+                  Eventos
                 </a>
                 <a className="footer-link" href="#">
-                  Ecommerce
+                  E-commerce
                 </a>
               </div>
             </div>
             <div>
-              <h6 className="mb-5 font-medium text-lg text-white">Get Help</h6>
+              <h6 className="mb-5 font-medium text-lg text-white">Obtenha Ajuda</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
                 <a className="footer-link" href="#">
-                  Shopify Company
+                  Shopify Empresa
                 </a>
                 <a className="footer-link" href="#">
-                  Knowledge Base
+                  Base de Conhecimento
                 </a>
                 <a className="footer-link" href="#">
-                  Videos Contact
+                  Vídeos de Contato
                 </a>
                 <a className="footer-link" href="#">
-                  Tech Support
+                  Suporte Técnico
                 </a>
                 <a className="footer-link" href="#">
-                  API Documentation
+                  Documentação API
                 </a>
               </div>
             </div>
@@ -190,16 +190,6 @@ export default function Footer() {
                 />
               </a>
             </div>
-            <p className="font-body text-white font-medium order-1">
-              © 2022 Shopify by{" "}
-              <a
-                className="italic underline"
-                href="https://berthutapea.vercel.app/"
-                target="_blank"
-              >
-                Gilbert Hutapea
-              </a>
-            </p>
           </div>
         </div>
       </footer>

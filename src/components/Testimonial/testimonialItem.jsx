@@ -11,7 +11,7 @@ export default function TestimonialItem() {
       />
       <div className="flex flex-col sm:w-10/12">
         <SubHead style="mb-[18px] w-9/12 md:w-full">
-          What Our Customers Say
+          O que Nossos Clientes Dizem
         </SubHead>
         <Paragraph style="mb-9">
           “Lorem ipsum dolor sit amet consectetur adipiscing elit turpis viverra

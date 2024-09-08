@@ -8,30 +8,30 @@ export default function NavbarDropdown({ isOpen }) {
       <div className="flex flex-col gap-16 mt-16">
         <div className="flex flex-col gap-8 items-center text-black-200">
           <a className="w-fit" href="#">
-            <p className="navlink active-navlink">Product</p>
+            <p className="navlink active-navlink">Produto</p>
           </a>
           <a className="w-fit" href="#">
-            <p className="navlink">Solutions</p>
+            <p className="navlink">Soluções</p>
           </a>
           <a className="w-fit" href="#">
-            <p className="navlink">Pricing</p>
+            <p className="navlink">Preços</p>
           </a>
           <a className="w-fit" href="#">
-            <p className="navlink">Resources</p>
+            <p className="navlink">Recursos</p>
           </a>
           <a className="w-fit" href="#">
-            <p className="navlink">Customers</p>
+            <p className="navlink">Clientes</p>
           </a>
         </div>
         <div className="flex flex-col gap-8">
           <a href="#">
             <p className="underline text-black-100 py-3.5 border border-black-100">
-              Login
+              Entrar
             </p>
           </a>
           <a href="#">
             <button className="py-3.5 border border-primary-100 w-full text-white bg-primary-100 font-medium">
-              Start Free
+              Comece Grátis
             </button>
           </a>
         </div>

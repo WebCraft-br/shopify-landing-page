@@ -41,7 +41,7 @@ export default function Testimonial() {
               >
                 <img
                   className="w-2 h-4.5 object-cover"
-                  src="/arrow-left.svg"
+                  src="./arrow-left.svg"
                   alt="arrow"
                 />
               </button>
@@ -51,7 +51,7 @@ export default function Testimonial() {
               >
                 <img
                   className="w-2 h-4.5 object-cover"
-                  src="/arrow-right.svg"
+                  src="./arrow-right.svg"
                   alt="arrow"
                 />
               </button>

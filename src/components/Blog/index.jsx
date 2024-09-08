@@ -24,21 +24,21 @@ export default function Blog() {
         <div className="grid gap-8 font-body md:grid-cols-2 lg:grid-cols-3">
           <section className="flex flex-col gap-6">
             <div className="overflow-hidden">
-              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="/blog-1.png" alt="miniatura" />
+              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="./blog-1.png" alt="miniatura" />
             </div>
             <h3 className="text-[26px] font-medium text-black-100">Melhore a gestão de ecommerce do seu negócio</h3>
             <a className="underline text-black-100" href="#">Leia Mais</a>
           </section>
           <section className="flex flex-col gap-6">
             <div className="overflow-hidden">
-              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="/blog-2.png" alt="miniatura" />
+              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="./blog-2.png" alt="miniatura" />
             </div>
             <h3 className="text-[26px] font-medium text-black-100">Hospedagem de Ecommerce: O que Procurar em um Host</h3>
             <a className="underline text-black-100 w-fit" href="#">Leia Mais</a>
           </section>
           <section className="hidden lg:flex flex-col gap-6">
             <div className="overflow-hidden">
-              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="/blog-1.png" alt="miniatura" />
+              <img className="w-full h-auto object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer" src="./blog-1.png" alt="miniatura" />
             </div>
             <h3 className="text-[26px] font-medium text-black-100">Melhore a gestão de ecommerce do seu negócio</h3>
             <a className="underline text-black-100" href="#">Leia Mais</a>

@@ -22,21 +22,21 @@ export default function CardImage({ primary }) {
   const fakeProfiles = [
     {
       id: 0,
-      avatar: "/profile-1.png",
+      avatar: "./profile-1.png",
       name: "Jenny Wilson",
       phone: "(629) 555-0129",
       amount: "$739.65",
     },
     {
       id: 1,
-      avatar: "/profile-2.png",
+      avatar: "./profile-2.png",
       name: "Terry Robar",
       phone: "(612) 675-8829",
       amount: "$475.22",
     },
     {
       id: 2,
-      avatar: "/profile-3.png",
+      avatar: "./profile-3.png",
       name: "Pritom Rana",
       phone: "(129) 325-0021",
       amount: "$839.65",

@@ -42,7 +42,7 @@ export default function Banner() {
               whileInView="visible"
               variants={bannerImage}
               className="w-[375px] sm:w-[550px] md:w-[723px] lg:w-full h-auto object-cover"
-              src="/shopify-main.png"
+              src="./shopify-main.png"
               alt="shopify"
             />
           </div>

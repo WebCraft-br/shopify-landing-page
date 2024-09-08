@@ -79,7 +79,7 @@ export default function Hero() {
             {/* cartão principal */}
             <img
               className="w-[355px] h-auto object-cover relative sm:w-[550px] md:w-[723px]"
-              src="hero.png"
+              src="./hero.png"
               alt="herói"
             />
 
@@ -91,7 +91,7 @@ export default function Hero() {
               <p>Sua Loja</p>
               <img
                 className="w-16 h-auto object-cover sm:w-24 md:w-[133px]"
-                src="/chair.png"
+                src="./chair.png"
                 alt="cadeira"
               />
               <div className="flex w-full items-center justify-between">
@@ -121,7 +121,7 @@ export default function Hero() {
                   </h4>
                   <img
                     className="w-8 h-auto object-cover sm:w-[52px] md:w-[65px]"
-                    src="/chart.svg"
+                    src="./chart.svg"
                     alt="gráfico"
                   />
                 </div>

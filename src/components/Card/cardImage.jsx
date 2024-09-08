@@ -108,7 +108,7 @@ export function SecondaryCard() {
         <div className="flex items-center gap-2 lg:gap-3.5">
           <img
             className="w-3.5 h-auto object-cover sm:w-5 lg:w-6"
-            src="/earn-1.svg"
+            src="./earn-1.svg"
             alt="ganhos"
           />
           <p className="text-[9px] sm:text-sm lg:text-base">Rendimento Total</p>
@@ -119,7 +119,7 @@ export function SecondaryCard() {
           </p>
           <img
             className="w-7 h-auto object-cover sm:w-11 lg:w-[50px]"
-            src="/earn-3.svg"
+            src="./earn-3.svg"
             alt="ganhos"
           />
         </div>
@@ -131,7 +131,7 @@ export function SecondaryCard() {
         <div className="flex items-center gap-2 lg:gap-3.5">
           <img
             className="w-3.5 h-auto object-cover sm:w-5 lg:w-6"
-            src="/earn-2.svg"
+            src="./earn-2.svg"
             alt="pior venda"
           />
           <p className="text-[9px] sm:text-sm lg:text-base">Pior Venda</p>
@@ -142,7 +142,7 @@ export function SecondaryCard() {
           </p>
           <img
             className="w-7 h-auto object-cover sm:w-11 lg:w-[50px]"
-            src="/earn-4.svg"
+            src="./earn-4.svg"
             alt="pior venda"
           />
         </div>
@@ -155,7 +155,7 @@ export function SecondaryCard() {
           <p className="text-[9px] sm:text-sm lg:text-base">Crescimento Total</p>
           <img
             className="w-2.5 h-auto object-cover sm:w-4 lg:w-5"
-            src="/dot.svg"
+            src="./dot.svg"
             alt="ponto"
           />
         </div>
@@ -163,7 +163,7 @@ export function SecondaryCard() {
           <div className="w-full">
             <img
               className="w-full h-auto object-cover"
-              src="/chart.png"
+              src="./chart.png"
               alt="gráfico"
             />
           </div>

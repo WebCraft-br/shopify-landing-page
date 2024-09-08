@@ -9,42 +9,42 @@ export default function Features() {
     {
       id: 1,
       title: "Pagamento único",
-      logo: "/feature-1.svg",
+      logo: "./feature-1.svg",
       content:
         "Confira nossas melhores práticas e suporte para fazer com que as mensagens de texto se tornem um dos seus três principais canais de receita.",
     },
     {
       id: 2,
       title: "Dados auto-relatados",
-      logo: "/feature-2.svg",
+      logo: "./feature-2.svg",
       content:
         "Você é dono dos seus dados, do design da loja e do plano de negócios, mas é livre para usar a plataforma de software e os recursos fornecidos pela Shopify.",
     },
     {
       id: 3,
       title: "Atualizações sempre gratuitas",
-      logo: "/feature-3.svg",
+      logo: "./feature-3.svg",
       content:
         "A Shopify se dedica tanto a manter seu software atualizado que envia atualizações gratuitas por toda a vida, sem cobrar nada.",
     },
     {
       id: 4,
       title: "Design mobile-first",
-      logo: "/feature-4.svg",
+      logo: "./feature-4.svg",
       content:
         "Com nosso aplicativo móvel, você permite que seus clientes verifiquem o status do pedido, naveguem pela sua loja e criem uma conta na hora.",
     },
     {
       id: 5,
       title: "100% personalizável",
-      logo: "/feature-5.svg",
+      logo: "./feature-5.svg",
       content:
         "Você pode personalizar sua vitrine e todo o resto da maneira que quiser, sendo o proprietário do código-fonte.",
     },
     {
       id: 6,
       title: "Gerenciamento de tarefas fácil",
-      logo: "/feature-6.svg",
+      logo: "./feature-6.svg",
       content:
         "Você pode ficar tranquilo sabendo que seu sistema está funcionando sem problemas graças à experiência e precisão de nossos técnicos.",
     },

@@ -33,7 +33,7 @@ export default function Navbar() {
           <a href="#">
             <img
               className="w-[124px] h-9 lg:w-[150px] lg:h-[42px] object-cover z-20 relative"
-              src="/shopify-header.png"
+              src="./shopify-header.png"
               alt="ícone-shopify"
             />
           </a>

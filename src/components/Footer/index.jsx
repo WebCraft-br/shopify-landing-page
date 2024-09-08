@@ -55,7 +55,7 @@ export default function Footer() {
           }}
           variants={footerImage}
           className="hidden lg:block absolute top-1/4 -left-28"
-          src="/eclipse-1.svg"
+          src="./eclipse-1.svg"
           alt="eclipse"
         />
         <motion.img
@@ -67,7 +67,7 @@ export default function Footer() {
           }}
           variants={footerImage}
           className="hidden lg:block absolute top-[20%] -right-24"
-          src="/eclipse-2.svg"
+          src="./eclipse-2.svg"
           alt="eclipse"
         />
       </div>
@@ -161,34 +161,6 @@ export default function Footer() {
                   Documentação API
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="text-center lg:col-span-3 md:flex justify-between items-center">
-            <div className="flex items-center justify-center gap-4 mb-4 order-2">
-              <a href="https://www.instagram.com/bethup97/?next=%2F" target="_blank">
-                <img
-                  className="footer-icon"
-                  src="/instagram.svg"
-                  alt="instagram"
-                />
-              </a>
-              <a href="https://github.com/berthutapea" target="_blank">
-                <img className="footer-icon" src="/github.svg" alt="github" />
-              </a>
-              <a href="https://t.me/bethup97" target="_blank">
-                <img
-                  className="footer-icon"
-                  src="/telegram.svg"
-                  alt="telegram"
-                />
-              </a>
-              <a href="https://www.linkedin.com/in/gilberthutapea/" target="_blank">
-                <img
-                  className="footer-icon"
-                  src="/linkedin.svg"
-                  alt="linkedin"
-                />
-              </a>
             </div>
           </div>
         </div>
